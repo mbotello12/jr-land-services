@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative isolate flex min-h-[70svh] items-center overflow-hidden bg-forest md:min-h-screen">
+    <section className="relative isolate flex h-[100vh] items-center overflow-hidden bg-forest md:min-h-screen">
 
       {/* Background image */}
       <Image
@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-0 bg-gradient-to-t from-forest/70 via-transparent to-black/20" />
 
       {/* Hero content */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-28 pt-36 md:px-8 md:pb-24 md:pt-40">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-18 pt-22 md:px-8 md:pb-24 md:pt-40">
         <motion.div
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
@@ -70,14 +70,14 @@ export default function Hero() {
 
             <Link
               href="#services"
-              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-4 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-sm transition hover:border-tan hover:bg-white/20"
+              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-2 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-sm transition hover:border-tan hover:bg-white/20"
             >
               Explore Our Services
             </Link>
           </div>
 
           {/* Experience marker */}
-          <div className="mt-12 flex items-center gap-4 border-t border-white/20 pt-6">
+          <div className="mt-12 flex items-center gap-4 border-t border-white/20 pt-2">
             <div className="font-heading text-5xl font-bold text-tan">
               17<span className="text-3xl">+</span>
             </div>
