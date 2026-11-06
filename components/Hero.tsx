@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative isolate flex min-h-[90svh] items-center overflow-hidden bg-forest md:min-h-screen">
+    <section className="relative isolate flex min-h-[70svh] items-center overflow-hidden bg-forest md:min-h-screen">
 
       {/* Background image */}
       <Image
@@ -16,8 +16,8 @@ export default function Hero() {
         alt="J&R property services in the Beeville, Texas area"
         fill
         priority
-        sizes="100vw"
-        className="object-cover object-center"
+        sizes="75vw"
+        className="object-cover object-[70%_40%]"
       />
 
       {/* Image overlays */}
