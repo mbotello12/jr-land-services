@@ -5,6 +5,8 @@ import ServicesSection from "@/components/ServiceSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import RecentWork from "@/components/RecentWork";
 import ServiceAreas from "@/components/ServiceArea";
+import EstimateCTA from "@/components/EstimateCTA";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -17,8 +19,10 @@ export default function Home() {
         <WhyChooseUs />
         <RecentWork />
         <ServiceAreas />
+        <EstimateCTA />
       </main>
-
+      
+      <Footer />
       <MobileCallBar />
     </>
   );
