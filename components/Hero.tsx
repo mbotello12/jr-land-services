@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative isolate flex h-[100vh] items-center overflow-hidden bg-forest md:min-h-screen">
+    <section className="relative isolate flex min-h-[90svh] items-center overflow-hidden bg-forest md:min-h-screen">
 
       {/* Background image */}
       <Image
@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-0 bg-gradient-to-t from-forest/70 via-transparent to-black/20" />
 
       {/* Hero content */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-18 pt-22 md:px-8 md:pb-24 md:pt-40">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-28 pt-36 md:px-8 md:pb-24 md:pt-40">
         <motion.div
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}

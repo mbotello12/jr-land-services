@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "J&R Tree, Lawn & Land Services | Beeville, TX",
     description:
       "Tree trimming, tree removal, lawn care, and land improvements in Beeville, Texas. Local owner-operator service with 17 years of hands-on experience.",
-    url: "/",
+    url: "https://jr-land-services.netlify.app",
     siteName: "J&R Tree, Lawn & Land Services",
     locale: "en_US",
     type: "website",

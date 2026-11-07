@@ -11,7 +11,7 @@ const projects = [
     category: "Tree Services",
     title: "Tree Trimming & Removal",
     description: "A cleaner, safer property starts with proper tree care.",
-    image: "/images/projects/tree-trimming.jpg",
+    image: "/images/projects/tree-trimming.png",
     featured: true,
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     category: "Land Improvements",
     title: "Clearing & Site Preparation",
     description: "Making room for what's next.",
-    image: "/images/projects/land-clearing.jpg",
+    image: "/images/projects/landwork.png",
     featured: false,
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     category: "Property Care",
     title: "Lawn & Landscaping",
     description: "Taking pride in the details that make a property stand out.",
-    image: "/images/projects/landscaping.jpg",
+    image: "/images/projects/lawncare1.png",
     featured: false,
   },
 ];
