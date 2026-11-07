@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Registration</title>
+  </head>
+  <body>
+    <form
+      name="estimate-request"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="estimate-request" />
+
+      <input type="text" name="name" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="location" />
+
+      <select name="service">
+        <option value="Tree Trimming & Removal">Tree Trimming & Removal</option>
+        <option value="Land Improvements & Clearing">Land Improvements & Clearing</option>
+        <option value="Lawn Care & Landscaping">Lawn Care & Landscaping</option>
+        <option value="Other Project">Other Project</option>
+      </select>
+
+      <textarea name="details"></textarea>
+
+      <input type="text" name="bot-field" />
+    </form>
+  </body>
+</html>
