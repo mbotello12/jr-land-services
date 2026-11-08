@@ -1,11 +1,11 @@
 import Navbar from "@/components/NavBar";
 import MobileCallBar from "@/components/MobileCallBar";
-import Hero from "@/components/Hero";
-import ServicesSection from "@/components/ServiceSection";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import RecentWork from "@/components/RecentWork";
-import ServiceAreas from "@/components/ServiceArea";
-import EstimateCTA from "@/components/EstimateCTA";
+import Hero from "@/components/home/Hero";
+import ServicesSection from "@/components/home/ServiceSection";
+import WhyChooseUs from "@/components/home/WhyChooseUs";
+import RecentWork from "@/components/home/RecentWork";
+import ServiceAreas from "@/components/home/ServiceArea";
+import EstimateCTA from "@/components/home/EstimateCTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
